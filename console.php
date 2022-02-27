@@ -8,7 +8,6 @@ use Console\ScaleCommand;
 
 $application = new Application();
 
-// ... register commands
 $application->add(new ScaleCommand());
 $application->run();
 
